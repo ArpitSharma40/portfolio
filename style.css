@@ -918,6 +918,7 @@ h3.my-profession
     .soci-media-button {
         display: none;
     }
+    
 }
 
 @media (max-width: 466px)
@@ -929,6 +930,18 @@ h3.my-profession
     .form-group .message-error
     {
         left: 4cm;
+    }
+    .soci-media-button {
+        display: none;
+    }
+     .socia-media-button{
+        bottom: 60px;
+        right: -250;
+    } 
+    .social-media-button
+    {
+        bottom: 4px;
+        right: -250;
     }
     .soci-media-button {
         display: none;
