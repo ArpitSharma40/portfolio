@@ -930,6 +930,9 @@ h3.my-profession
     {
         left: 4cm;
     }
+    .soci-media-button {
+        display: none;
+    }
     
 }
 
@@ -941,6 +944,19 @@ h3.my-profession
     }
     .form-group .message-error
     {
-        left: 3.1cm;
+        left: 3cm;
     }
+    .socia-media-button{
+        bottom: 60px;
+        right: -250;
+    } 
+    .social-media-button
+    {
+        bottom: 4px;
+        right: -250;
+    }
+    .soci-media-button {
+        display: none;
+    }
+
 }
