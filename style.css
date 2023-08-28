@@ -796,7 +796,7 @@ h3.my-profession
 {
     position: relative;
     bottom: 36px;
-    left: 12.5cm;
+    left: 11cm;
     color: red;
     font-size: large;
 }
@@ -809,7 +809,7 @@ h3.my-profession
     position: relative;
     bottom: 34px;
     color: red;
-    left: 23cm;
+    left: 19cm;
 }
 #submit-error
 {
@@ -886,8 +886,18 @@ h3.my-profession
     {
         left: 7cm;
     }
+
+    .form-group .name-error, .email-error
+    {
+        left: 16.5cm;
+    }
+    .form-group .message-error
+    {
+        left: 12cm;
+    }
 }
-@media (max-width:483px)
+
+@media (max-width:600px)
 {
     .form-group .name-error, .email-error
     {
@@ -898,11 +908,39 @@ h3.my-profession
         left: 5.5cm;
     }
     .socia-media-button{
-        bottom: 0;
-        position: fixed;
+        bottom: 60px;
     } 
-    .social-media-button, .soci-media-button
+    .social-media-button
     {
+        bottom: 4px;
+    }
+
+    .soci-media-button {
         display: none;
+    }
+}
+
+@media (max-width: 466px)
+{
+    .form-group .name-error, .email-error
+    {
+        left: 8cm;
+    }
+    .form-group .message-error
+    {
+        left: 4cm;
+    }
+    
+}
+
+@media (max-width: 360px)
+{
+    .form-group .name-error, .email-error
+    {
+        left: 4cm;
+    }
+    .form-group .message-error
+    {
+        left: 3.1cm;
     }
 }
