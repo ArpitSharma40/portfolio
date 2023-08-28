@@ -887,3 +887,22 @@ h3.my-profession
         left: 7cm;
     }
 }
+@media (max-width:483px)
+{
+    .form-group .name-error, .email-error
+    {
+        left: 10cm;
+    }
+    .form-group .message-error
+    {
+        left: 5.5cm;
+    }
+    .socia-media-button{
+        bottom: 0;
+        position: fixed;
+    } 
+    .social-media-button, .soci-media-button
+    {
+        display: none;
+    }
+}
